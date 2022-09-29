@@ -25,6 +25,18 @@ body{
 .features-container{
 
 }
+/* block divider */
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border:0;
+}
+.block-divider--orange{
+    background-color: #f05f40;
+}
+.block-divider-short{
+    width: 35px;
+}
 
 /* jumbotron */
 .jumbotron{
@@ -42,4 +54,11 @@ body{
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
+}
+
+.jumbotron .lead{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 25px 0;
+    color: #a7a7a7;
 }
