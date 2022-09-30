@@ -38,6 +38,18 @@ body{
 .features-container{
 
 }
+/*page headers */
+.page-header{
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+.page-header h2{
+    margin-top: 0;
+}
+
+
+
 /* opaque-overlay */
 .opaque-overlay{
     position: absolute;
@@ -54,6 +66,7 @@ body{
     width: 75px;
     height: 5px;
     border:0;
+    background-color: #444;
 }
 .block-divider--orange{
     background-color: #f05f40;
