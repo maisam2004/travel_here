@@ -67,9 +67,17 @@ body{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.25);
 }
+.navbar .navbar-toggler{
+    border:0; /*remove border around toggler on mobile view */
+}
 
+.navbar-brand{
+    font-weight: bold;
 
-
+}
+.navbar .navbar-nav a{
+    font-weight: bold;
+}
 
 /* jumbotron */
 .jumbotron{
