@@ -7,6 +7,15 @@ body{
     padding-right: 0;
 
 }
+.site-wide-alert{
+    /* remove rounded corner */
+    border-radius: 0;
+    margin-bottom: 0;/*stop pushing down */
+    padding: 5px 15px;
+    background-color: #eec802;
+    border-color: #eec802;
+
+}
 .callout-container{
     height: 100vh;
 
